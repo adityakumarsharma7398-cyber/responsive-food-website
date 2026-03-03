@@ -21,4 +21,4 @@ A modern and fully responsive food website built using HTML, CSS, and JavaScript
 - CSS and JS folders
 
 ## 👨‍💻 Author
-Aditya Sharma
+Aditya Kumar Sharma
