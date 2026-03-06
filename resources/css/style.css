@@ -202,10 +202,12 @@ h3{
 .section-features .long-copy{
     margin-bottom:30px ;
 }
+
 .works-step{
     margin-bottom: 50px;
     margin-right: 25px;
 }
+
 .step-box:first-child{/*pseudo class first-child*/
 text-align: center;
 padding-right: 3%;
@@ -218,10 +220,9 @@ margin-top:30px ;
     margin-top: 70px;
 }
 .app-screen{
-    width: 30%;
-    border-radius: 9%;
-    box-shadow:10px 10px 5px #aaaaaa ;
-    margin:20px 0px 0px 100px;
+    width: 90%;
+ 
+    margin:20px 0px 0px 0px;
 }
 .works-step div{
     color: #e67e22;
@@ -237,32 +238,47 @@ margin-top:30px ;
 }
 .btn-app {
 display: flex;
-margin: 0;
-padding: 0;
+justify-content: center;
+align-items: center;
+gap: 50px;
+height: 90px;
+
+padding-right: 20px;
+
 }
 
-.btn-app-one img{
-width: 100%;
-height: 150px;
-margin: 0;
-padding: 0;
+.playstore,.apple{
+  border-top: 1px solid #dd4b39;
+  border-radius: 20px;
+  width: 1000px;
+ 
+  padding:20px;
+
 }
-.btn-app-two img{
-    width: 100%;
-    margin: 0;
-padding: 0;
-height: 100px;
+.btn-app a{
+    color: #e67e22;
+    text-decoration: none;
+
+    padding-bottom:1px  ;
+}
+
+.playstore:hover,.apple:hover{
+ border-top: 1px solid #888;
 }
 .works-step:last-of-type{/*pseudo class last-of-type*/
  margin-bottom: 80px;
 }
 .section-steps{
     background-color: #f4f4f4;
+
 }
 .row2{
     display: flex;
-     max-width: 1140px;
+     max-width: 950px;
     margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
    
     
 }
@@ -285,7 +301,7 @@ height: 100px;
  margin-top: -5px;
  margin-right: 10px;
 }
-a:link,a:visited{
+.city-feature a:link,.city-feature a:visited{
     color: #e67e22;
     text-decoration: none;
     border-bottom:1px solid #e67e22 ;
