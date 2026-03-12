@@ -2,6 +2,10 @@
 
 A modern and fully responsive food website built using HTML, CSS, and JavaScript.
 
+## 🚀 Live Demo
+
+🔗https://responsive-food-website16.netlify.app/
+
 ## 🚀 Features
 - Fully responsive design
 - Clean and modern UI
